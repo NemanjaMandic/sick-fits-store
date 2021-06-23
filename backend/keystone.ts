@@ -4,6 +4,9 @@ import { statelessSessions, withItemData } from '@keystone-next/keystone/session
 
 import 'dotenv/config';
 import { User } from './schemas/User';
+import { Product } from './schemas/Product';
+import { ProductImage } from './schemas/ProductImage';
+
 
 const databaseURL = process.env.DATABASE_URL || 'mongodb://localhost/keystone-sick-fits';
 
@@ -21,6 +24,7 @@ const { withAuth } = createAuth({
         //TODO: Add in initial roles here
     }
 })
+
 export default withAuth(config({
     server: {
         cors: {
@@ -34,7 +38,9 @@ export default withAuth(config({
     },
     lists: createSchema({
         //schema items go in here
-        User
+        User,
+        Product,
+        ProductImage
     }),
     ui: {
         //Show ui only for people who pass this test

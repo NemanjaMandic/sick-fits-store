@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\n\nconst IndexPage = () => {\n  return /*#__PURE__*/_jsx(\"h2\", {\n    children: \"Ja indeks strana\"\n  });\n};\n\nexport default IndexPage;","map":null,"metadata":{},"sourceType":"module"}

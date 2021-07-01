@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\n\nvar AccountPage = function AccountPage() {\n  return /*#__PURE__*/_jsx(\"h2\", {\n    children: \"Account\"\n  });\n};\n\nexport default AccountPage;","map":null,"metadata":{},"sourceType":"module"}

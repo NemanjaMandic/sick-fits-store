@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\n\nconst OrdersPage = () => {\n  return /*#__PURE__*/_jsx(\"h2\", {\n    children: \"Orders\"\n  });\n};\n\nexport default OrdersPage;","map":null,"metadata":{},"sourceType":"module"}
